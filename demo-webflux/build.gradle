@@ -1,0 +1,8 @@
+dependencies {
+	compile 'org.springframework.boot:spring-boot-starter-data-redis-reactive'
+	compile 'org.springframework.boot:spring-boot-starter-security'
+	compile 'org.springframework.boot:spring-boot-starter-webflux'
+	compile 'org.springframework.session:spring-session-data-redis'
+
+	testCompile 'org.springframework.boot:spring-boot-starter-test'
+}
