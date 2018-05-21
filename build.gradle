@@ -1,0 +1,15 @@
+plugins {
+	id 'base'
+	id 'org.springframework.boot' version '2.0.2.RELEASE' apply false
+}
+
+subprojects {
+	apply plugin: 'java'
+	apply plugin: 'org.springframework.boot'
+
+	sourceCompatibility = 1.8
+
+	repositories {
+		mavenCentral()
+	}
+}
