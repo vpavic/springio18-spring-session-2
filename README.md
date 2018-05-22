@@ -10,4 +10,4 @@ Demonstrates various Spring Session 2 improvements.
 
 ## demo-webflux
 
-Demonstrates Spring WebFlux support, together with Spring Boot's auto-configuration capabilities
+Demonstrates Spring WebFlux support, together with Spring Boot's auto-configuration capabilities.

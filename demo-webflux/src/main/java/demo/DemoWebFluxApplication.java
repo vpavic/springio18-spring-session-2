@@ -1,7 +1,5 @@
 package demo;
 
-import java.util.UUID;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -25,9 +23,8 @@ public class DemoWebFluxApplication {
 	}
 
 	@GetMapping(path = "/")
-	public WebSession home(WebSession session) {
-		session.getAttributes().put("demo", UUID.randomUUID().toString());
-		return session;
+	public String home(WebSession session) {
+		return session.getId();
 	}
 
 	@Bean // TODO 1 - remove RedisConnectionFactory bean
