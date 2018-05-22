@@ -1,4 +1,5 @@
 rootProject.name = 'springio18-spring-session-2'
 
+include 'demo-custom-repo'
 include 'demo-improvements'
 include 'demo-webflux'

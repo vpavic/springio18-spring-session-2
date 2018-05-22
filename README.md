@@ -4,6 +4,10 @@ This repo contains demos to accompany [Introducing Spring Session 2](https://201
 
 Demos are using Gradle and Spring Boot.
 
+## demo-custom-repo
+
+Demonstrates how to provide configuration infrastructure for a custom session repository.
+
 ## demo-improvements
 
 Demonstrates various Spring Session 2 improvements.
