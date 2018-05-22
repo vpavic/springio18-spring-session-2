@@ -4,6 +4,10 @@ This repo contains demos to accompany [Introducing Spring Session 2](https://201
 
 Demos are using Gradle and Spring Boot.
 
+## demo-improvements
+
+Demonstrates various Spring Session 2 improvements.
+
 ## demo-webflux
 
 Demonstrates Spring WebFlux support, together with Spring Boot's auto-configuration capabilities
