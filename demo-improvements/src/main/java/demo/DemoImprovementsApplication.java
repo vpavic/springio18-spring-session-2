@@ -24,7 +24,7 @@ public class DemoImprovementsApplication {
 		return session.getId();
 	}
 
-	// TODO 5 - use Spring Session RedisConnectionFactory
+	// TODO demo-improvements.5 - use Spring Session RedisConnectionFactory
 //	@SpringSessionRedisOperations
 //	private RedisOperations<Object, Object> springSessionRedisOperations;
 //

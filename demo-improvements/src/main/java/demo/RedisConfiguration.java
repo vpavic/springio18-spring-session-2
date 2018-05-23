@@ -7,19 +7,19 @@ import org.springframework.data.redis.connection.RedisStandaloneConfiguration;
 import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory;
 import org.springframework.session.data.redis.config.annotation.SpringSessionRedisConnectionFactory;
 
-// TODO 2 - enable custom Redis config
+// TODO demo-improvements.2 - enable custom Redis config
 //@Configuration
 public class RedisConfiguration {
 
 	@Bean
-	// TODO 3 - set primary RedisConnectionFactory
+	// TODO demo-improvements.3 - define primary RedisConnectionFactory
 //	@Primary
 	public LettuceConnectionFactory redisConnectionFactoryOne() {
 		return new LettuceConnectionFactory(new RedisStandaloneConfiguration("localhost", 6379));
 	}
 
 	@Bean
-	// TODO 4 - set SpringSession RedisConnectionFactory
+	// TODO demo-improvements.4 - define Spring Session RedisConnectionFactory
 //	@SpringSessionRedisConnectionFactory
 	public LettuceConnectionFactory redisConnectionFactoryTwo() {
 		return new LettuceConnectionFactory(new RedisStandaloneConfiguration("localhost", 6378));

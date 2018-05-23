@@ -14,7 +14,8 @@ import org.springframework.web.server.WebSession;
 import org.springframework.web.server.session.HeaderWebSessionIdResolver;
 
 @SpringBootApplication
-@EnableRedisWebSession // TODO 2 - remove EnableRedisWebSession
+// TODO demo-webflux.2 - remove EnableRedisWebSession
+@EnableRedisWebSession
 @RestController
 public class DemoWebFluxApplication {
 
@@ -27,12 +28,13 @@ public class DemoWebFluxApplication {
 		return session.getId();
 	}
 
-	@Bean // TODO 1 - remove RedisConnectionFactory bean
+	// TODO demo-webflux.1 - remove RedisConnectionFactory bean
+	@Bean
 	public LettuceConnectionFactory redisConnectionFactory() {
 		return new LettuceConnectionFactory();
 	}
 
-	// TODO 3 - add HeaderWebSessionIdResolver
+	// TODO demo-webflux.3 - add HeaderWebSessionIdResolver
 //	@Bean
 //	public HeaderWebSessionIdResolver webSessionIdResolver() {
 //		return new HeaderWebSessionIdResolver();

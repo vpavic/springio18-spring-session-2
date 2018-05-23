@@ -10,7 +10,7 @@ Demonstrates how to provide configuration infrastructure for a custom session re
 
 ## demo-improvements
 
-Demonstrates various Spring Session 2 improvements.
+Demonstrates Spring Session 2 configuration improvements.
 
 ## demo-webflux
 
