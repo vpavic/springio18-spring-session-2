@@ -29,7 +29,7 @@ public class DemoCustomRepoApplication {
 		return session.getId();
 	}
 
-	// TODO demo-custom-repo.1 - remove sessionRepository bean
+	// TODO demo-custom-repo.2 - remove sessionRepository bean
 	@Bean
 	public MapSessionRepository sessionRepository() {
 		return new MapSessionRepository(new ConcurrentHashMap<>());
